@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+.hero-section img {
+  width: 1280px;
+  height: 855px;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+}
+/* NAV */
+
+header {
+  position: absolute;
+  display: flex;
+  gap: 340px;
+  margin: 24px 64px 0 64px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+
+  gap: 64px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-text {
+  font-size: 36px;
+  font-weight: 900;
+}
