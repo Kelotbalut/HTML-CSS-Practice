@@ -5,32 +5,33 @@
   font-family: "Inter", serif;
 }
 
-.hero-section img {
-  width: 1280px;
-  height: 855px;
-}
 .container {
-  width: 1280px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-body {
-  position: relative;
+.hero-section {
+  background-image: url(backgroundpetcares.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 855px;
+  position: fixed;
 }
 /* NAV */
 
 header {
-  position: absolute;
   display: flex;
-  gap: 340px;
-  margin: 24px 64px 0 64px;
+  gap: 250px;
+  margin: 32px 64px 48px 64px;
   align-items: center;
 }
 
 nav {
   display: flex;
 
-  gap: 64px;
+  gap: 120px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -38,4 +39,56 @@ nav {
 .logo-text {
   font-size: 36px;
   font-weight: 900;
+}
+
+/* HERO CONTENT */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-placeholder {
+  width: 646px;
+  height: 679px;
+  background-color: #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  grid-column: 2;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  width: 617;
+  /* height: 183; */
+}
+
+.sub-title {
+  font-size: 20px;
+  width: 553px;
+  /* height: 76px; */
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 9px;
+  width: 153px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  margin-left: 84px;
 }
