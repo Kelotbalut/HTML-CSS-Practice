@@ -9,16 +9,24 @@
   display: none;
 } */
 
-header {
+.container {
   background-image: url(backgroundpetcares.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  position: relative;
+  /* width: 1280px;
+  margin: 0 auto; */
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 100px 1fr;
+  height: 100vh;
 }
 
 .container-center {
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -35,13 +43,16 @@ header {
 
   display: flex;
   gap: 132px;
+  align-items: center;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  grid-row: 1/-1;
+  grid-column: 1/2;
 
-  margin: 0 64px 0 64px;
+  align-self: start;
   padding-top: 32px;
 }
 
@@ -68,8 +79,8 @@ nav {
 }
 
 .img-placeholder {
-  width: 646px;
-  height: 679px;
+  width: 580px;
+  height: 500px;
   background-color: #e9ecef;
 
   display: flex;
@@ -77,9 +88,18 @@ nav {
   align-items: center;
 }
 
+/* .hero-grid {
+  grid-row: 2/-1;
+  grid-column: 1;
+} */
+
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* margin-top: 32px; */
+  display: flex;
+  justify-content: space-between;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  align-self: start;
 
   position: absolute;
 
@@ -91,6 +111,7 @@ nav {
 .right-side {
   justify-self: end;
   align-self: center;
+  position: relative;
 }
 
 .left-side {
