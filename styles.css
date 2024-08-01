@@ -13,12 +13,23 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.section-hero {
+.container {
   background-image: url(backgroundpetcares.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+}
+
+header {
+  /* background-color: #ebdfcb; */
+  /* max-width: 130rem;
+  margin: 0 auto; */
+
+  height: 9.6rem;
 }
 
 /* NAVIGATION */
@@ -56,7 +67,7 @@ nav {
 }
 
 header {
-  padding: 3.2rem 6.4rem 3.2rem 6.4rem;
+  padding: 3.2rem 6.4rem;
 }
 
 /* HERO SECTION */
@@ -83,24 +94,25 @@ header {
 
 .btn:hover,
 .btn:active {
-  background-color: #555;
-  color: #fff;
+  background-color: #ebdfcb;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+
   max-width: 130rem;
   margin: 0 auto;
-  gap: 4.2rem;
+  gap: 6.2rem;
 }
 
 .left-side {
+  max-width: 60rem;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
   justify-content: center;
-  padding-left: 4.2rem;
+  padding: 0 4.2rem;
 }
 
 .img-placeholder {
@@ -111,8 +123,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 55.6rem;
+  width: 100%;
   height: 45.6rem;
   background-color: #555;
   grid-column: 2;
+  padding: 0 4.2rem;
 }
