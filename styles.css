@@ -34,40 +34,37 @@ header {
 
 /* NAVIGATION */
 
-/* .hero-grid {
-  display: none;
-} */
-
-.hero {
-  margin: 0 auto;
-}
-
-.logo-text {
-  font-size: 3.6rem;
-  font-weight: 900;
-}
-
-.navigation {
-  display: flex;
-  gap: 8.4rem;
-}
-
-.navigation a {
-  font-size: 2rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 3.2rem 6.4rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 9.6rem;
+}
+.logo-text {
+  font-weight: 900;
+  font-size: 3.6rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  color: black;
+  font-size: 2rem;
+
+  transition: color 300ms;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #b89fc5;
 }
 
 /* HERO SECTION */
