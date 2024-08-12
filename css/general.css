@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+/* *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8 rgba(255, 169, 77, 0.63);
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg--img-container {
+  background-image: url(../backgroundpetcares.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
