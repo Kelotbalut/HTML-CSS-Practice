@@ -19,11 +19,12 @@ body {
 }
 
 .bg--img-container {
-  background-image: url(../backgroundpetcares.png);
+  background-image: url(../../img/backgroundpetcares.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
+  margin-bottom: 3.2rem;
 }
 
 .container {
@@ -39,4 +40,9 @@ body {
 
 .grid--2-cols {
   grid-template-columns: 1fr 1fr;
+}
+
+
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
 }

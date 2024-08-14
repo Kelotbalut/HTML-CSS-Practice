@@ -73,7 +73,7 @@
 }
 
 .hero-placeholder {
-  height: 67.9rem;
+  height: 63.9rem;
   width: 64.6rem;
   background-color: #bbb;
 
@@ -81,6 +81,65 @@
   align-items: center;
   justify-content: center;
 }
+
+/* CHOOSE SECTION */
+
+.cards {
+  margin: 0 3.2rem 0 3.2rem;
+}
+
+.section-choose {
+  padding-top: 3.2rem;
+  margin-bottom: 3.2rem !important;
+}
+
+.title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-align: center;
+} 
+
+.card {
+  margin-top: 2.4rem;
+  background-color: #AFF98D;
+  max-width: 31.8rem;
+  height: 33.3rem;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+} 
+
+.card-img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.card-title{
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 1.6rem;
+  text-align: center;
+  width: 27rem;
+}
+
+
+
+
+
+
+
 
 /* .container--bg-img {
   background-image: url(backgroundpetcares.png);
