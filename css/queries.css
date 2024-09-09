@@ -1,5 +1,63 @@
-@media (max-width: 84em) {
-  .hero-placeholder {
-    height: 60rem;
+/* BELOW 1440px (LAPTOP L) */
+@media (max-width: 75em) {
+  .nav-links {
+    gap: 8rem;
+  }
+}
+
+/* BELOW 1100px (LAPTOP) */
+@media (max-width: 68.75em) {
+  .nav-links {
+    gap: 6.4rem;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .title {
+    font-size: 3.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
+  .title--type-2 {
+    font-size: 3.8rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .subtitle--type-2 {
+    font-size: 1.8rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
+  .about-one {
+    margin-bottom: 10rem;
+  }
+
+  .products-cards {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+  }
+
+  .product-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* BELOW 1000px (LAPTOP) */
+
+@media (max-width: 63em) {
+  .nav-links {
+    gap: 4.6rem;
   }
 }
